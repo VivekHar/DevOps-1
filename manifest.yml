@@ -1,0 +1,10 @@
+applications:
+- path: JavaCloudantApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: DevOps 1
+  host: DevOps-1
+  disk_quota: 1024M
+  services:
+  - DevOps 1-cloudantNoSQLDB
